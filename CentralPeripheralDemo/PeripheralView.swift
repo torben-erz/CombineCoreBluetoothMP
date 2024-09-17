@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import CombineCoreBluetooth
+import CombineCoreBluetoothMP
 
 extension CBUUID {
   static let service = CBUUID(string: "1337")

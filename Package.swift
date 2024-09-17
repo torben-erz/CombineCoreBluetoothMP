@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "CombineCoreBluetooth",
+  name: "CombineCoreBluetoothMP",
   platforms: [
     .iOS(.v13),
     .macOS(.v11),
@@ -13,8 +13,8 @@ let package = Package(
   ],
   products: [
     .library(
-      name: "CombineCoreBluetooth",
-      targets: ["CombineCoreBluetooth"]
+      name: "CombineCoreBluetoothMP",
+      targets: ["CombineCoreBluetoothMP"]
     ),
   ],
   dependencies: [
@@ -22,16 +22,16 @@ let package = Package(
   ],
   targets: [
     .target(
-      name: "CombineCoreBluetooth",
+      name: "CombineCoreBluetoothMP",
       dependencies: [
       ],
       swiftSettings: [
       ]
     ),
     .testTarget(
-      name: "CombineCoreBluetoothTests",
+      name: "CombineCoreBluetoothMPTests",
       dependencies: [
-        "CombineCoreBluetooth",
+        "CombineCoreBluetoothMP",
         .product(name: "ConcurrencyExtras", package: "swift-concurrency-extras"),
       ]
     ),

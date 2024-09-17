@@ -5,7 +5,7 @@
 //  Created by Kevin Lundberg on 3/27/22.
 //
 
-import CombineCoreBluetooth
+import CombineCoreBluetoothMP
 import SwiftUI
 
 class CentralDemo: ObservableObject {

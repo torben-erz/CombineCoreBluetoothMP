@@ -1,11 +1,6 @@
-# CombineCoreBluetooth
+# CombineCoreBluetoothMP (Origin Project: https://github.com/StarryInternet/CombineCoreBluetooth.git)
 
-[![CI](https://github.com/StarryInternet/CombineCoreBluetooth/actions/workflows/ci.yml/badge.svg)](https://github.com/StarryInternet/CombineCoreBluetooth/actions/workflows/ci.yml)
-[![GitHub](https://img.shields.io/github/license/StarryInternet/CombineCoreBluetooth)](https://github.com/StarryInternet/CombineCoreBluetooth/blob/master/LICENSE)
-[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FStarryInternet%2FCombineCoreBluetooth%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/StarryInternet/CombineCoreBluetooth)
-[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FStarryInternet%2FCombineCoreBluetooth%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/StarryInternet/CombineCoreBluetooth)
-
-CombineCoreBluetooth is a library that bridges Apple's `CoreBluetooth` framework and Apple's `Combine` framework, making it possible to subscribe to perform bluetooth operations while subscribing to a publisher of the results of those operations, instead of relying on implementing delegates and manually filtering for the results you need.
+CombineCoreBluetoothMP is a library that bridges Apple's `CoreBluetooth` framework and Apple's `Combine` framework, making it possible to subscribe to perform bluetooth operations while subscribing to a publisher of the results of those operations, instead of relying on implementing delegates and manually filtering for the results you need.
 
 ## Requirements:
 
@@ -20,23 +15,7 @@ CombineCoreBluetooth is a library that bridges Apple's `CoreBluetooth` framework
 Add this line to your dependencies list in your Package.swift:
 
 ```swift
-.package(name: "CombineCoreBluetooth", url: "https://github.com/StarryInternet/CombineCoreBluetooth.git", from: "0.3.0"),
-```
-
-### Cocoapods
-
-Add this line to your Podfile:
-
-```ruby
-pod 'CombineCoreBluetooth'
-```
-
-### Carthage
-
-Add this line to your Cartfile:
-
-```
-github "StarryInternet/CombineCoreBluetooth"
+.package(name: "CombineCoreBluetoothMP", url: "https://github.com/torben-erz/CombineCoreBluetoothMP.git", from: "0.1.0"),
 ```
 
 ## Usage
